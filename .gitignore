@@ -1,0 +1,34 @@
+src/*.exe
+src/allpurposecoin
+src/allpurposecoind
+src/test_allpurposecoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.allpurposecoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+allpurposecoin-qt
+AllPurposeCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+allpurposecoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
